@@ -1,0 +1,46 @@
+.box-main-one{
+    display: flex;
+    width: 980px;
+    height: 536px;
+    
+}
+
+.box-one{
+
+
+}
+
+.box-two{
+
+}
+
+.logo{
+width: 321px;
+height: 106px;
+margin: -28px;
+border: 0px;
+
+}
+
+.slogan{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    height: 473px;
+    width: 63px;
+    color: #1c1b21;
+
+}
+
+.usuario{
+    width: 364px;
+    height: 51px;
+    padding: 6px;
+    font-size: 17px;
+}
+
+.contraseña{
+     width: 364px;
+    height: 51px;
+    padding: 6px;
+    font-size: 17px;
+}
