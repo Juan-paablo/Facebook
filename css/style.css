@@ -2,45 +2,110 @@
     display: flex;
     width: 980px;
     height: 536px;
-    
+    justify-content: center;
+    align-content: center;
+    margin: 0px 143px 0px 143px;
+    padding: 20px 0px 20px 0px;
+}
+
+.body{
+       background-color: #F2F4F7;
 }
 
 .box-one{
-
-
+    
+    padding: 0px 32px 0px 0px;
+    width: 580px;
+    height: 266px;
+    align-content: end;
 }
 
 .box-two{
 
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 40px 0px 0px 0px;
+    padding: 10px 0px 24px 0px;
+    width: 415px;
+    height: 353px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
 }
 
 .logo{
-width: 321px;
-height: 106px;
-margin: -28px;
-border: 0px;
+    width: 321px;
+    height: 106px;
+    justify-content: end;
+    align-content: end;
+    display: flex;
+    margin: -28px;
 
+}
+
+.caja-logo{
+    padding: 112px 0vw 16px 0px;
+    width: 548px;
+    height: 54px;
+    font-size: 12px;
 }
 
 .slogan{
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
     font-size: 28px;
-    height: 473px;
-    width: 63px;
     color: #1c1b21;
-
+    height: 63px;
+    width: 473px;
+    
 }
 
 .usuario{
-    width: 364px;
-    height: 51px;
-    padding: 6px;
+    width: 330px;
+    height: 22px;
+    padding: 14px 16px 14px 16px;
     font-size: 17px;
+    border: 0.7px 0.7px 0.7px 0.7px ;
 }
 
 .contraseña{
-     width: 364px;
-    height: 51px;
-    padding: 6px;
+    width: 330px;
+    height: 22px;
+    padding: 14px 16px 14px 16px;
     font-size: 17px;
+    border: 0.7px 0.7px 0.7px 0.7px 
+}
+.button{
+    display: flex;
+}
+
+.footer{
+    
+    background-color: #FFFFFF;
+
+}
+
+.footer-one{
+    
+    width: 980px;
+    height: 136px;
+    padding: 20px 0px 0px 0px;
+    margin: 0px 143px 0px 143px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-two{
+   
+    width: 980px;
+    height: 136px;
+    padding: 20px 0px 0px 0px;
+    margin: 0px 143px 0px 143px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
 }
