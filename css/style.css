@@ -13,7 +13,7 @@
 }
 
 .box-one{
-    
+    margin: 50px 0px 0px 0px;
     padding: 0px 32px 0px 0px;
     width: 580px;
     height: 266px;
@@ -22,19 +22,20 @@
 
 .box-two{
 
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    margin: 40px 0px 0px 0px;
-    padding: 10px 0px 24px 0px;
-    width: 415px;
-    height: 353px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1);
+    margin: 100px 0px 0px 0px;
+    padding: 24px ;
+    width: 360px;
+    height: 330px;
     background-color: #FFFFFF;
-    border: none;
     border-radius: 8px;
+    justify-content: center;
+    
+    
 }
-
+.x{
+    margin-bottom: 10px;
+}
 .logo{
     width: 321px;
     height: 106px;
@@ -61,51 +62,155 @@
     
 }
 
-.usuario{
-    width: 330px;
+.caja-usuario{
+    width: 363px;
     height: 22px;
     padding: 14px 16px 14px 16px;
     font-size: 17px;
-    border: 0.7px 0.7px 0.7px 0.7px ;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border-color: #737373;
 }
 
-.contraseña{
-    width: 330px;
+.contrasena{
+    width: 363px;
     height: 22px;
     padding: 14px 16px 14px 16px;
     font-size: 17px;
-    border: 0.7px 0.7px 0.7px 0.7px 
+    justify-content: end;
+    align-items: end;
+    box-sizing: border-box;
+    border-radius: 6px;
+    
 }
-.button{
-    display: flex;
+.caja-contrasena{
+    width: 100%;
+    height: 22px;
+    padding: 14px 16px 14px 16px;
+    font-size: 17px;
+    border: 0.7px 0.7px 0.7px 0.7px;
+    justify-content: end;
+    align-items: end;
 }
+
 
 .footer{
     
     background-color: #FFFFFF;
-
+    height:137px ;
+    width: 1257px;
+    
 }
 
 .footer-one{
     
     width: 980px;
-    height: 136px;
-    padding: 20px 0px 0px 0px;
+    height: 19px;
+    padding: 20px 0px 10px 0px;
     margin: 0px 143px 0px 143px ;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+    display: flex;
+    gap: 10px;
+    color: #737373;
 }
 
 .footer-two{
    
     width: 980px;
-    height: 136px;
-    padding: 20px 0px 0px 0px;
+    height: 19px;
+    padding: 10px 0px 0px 0px;
     margin: 0px 143px 0px 143px ;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    justify-content: center;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    color: #737373;
+    flex-wrap: wrap;
+    border-top: 1px solid;
+    border-color: #737373;
+
+}
+.olvidaste-contraseña{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #0866ff;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 20px;
+}
+.button-crear-cuenta{
+    background-color: rgb(61, 174, 37);
+    width: 190px;
+    height: 48px;
+    padding: 0px 16px 0px 16px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
     align-items: center;
 }
+.cr{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
+.iniciar-sesion{
+    justify-content: center;
+    background-color: #0866ff;
+    width: 332px;
+    height: 48px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    border: #0866ff;
+   
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #737373;
+}
+.fin{
+    display: flex;
+    justify-content: start;
+    color: #737373;
+    font-size: 11px;
+    width: 980px;
+    height: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 143px 0px 143px ;
+    align-items: end;
+}
+.box-two-two{
+    margin: 30px 0px 0px 0px;
+    background-color: #F2F4F7;
+    padding: 20px 0px 24px 0px;
+    width: 415px;
+    display: flex;
+    justify-content: center;
+    
+}
+.negrilla{
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color:black;
+}
+.button{
+    margin: 20px;
+    box-sizing: border-box;
+}
+
