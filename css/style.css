@@ -1,7 +1,7 @@
 .box-main-one{
     display: flex;
     width: 980px;
-    height: 536px;
+    height: 690px;
     justify-content: center;
     align-content: center;
     margin: 0px 143px 0px 143px;
@@ -21,7 +21,6 @@
 }
 
 .box-two{
-
     box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1);
     margin: 100px 0px 0px 0px;
     padding: 24px ;
@@ -30,8 +29,6 @@
     background-color: #FFFFFF;
     border-radius: 8px;
     justify-content: center;
-    
-    
 }
 .x{
     margin-bottom: 10px;
@@ -43,7 +40,6 @@
     align-content: end;
     display: flex;
     margin: -28px;
-
 }
 
 .caja-logo{
@@ -59,29 +55,34 @@
     color: #1c1b21;
     height: 63px;
     width: 473px;
-    
 }
 
 .caja-usuario{
     width: 363px;
-    height: 22px;
     padding: 14px 16px 14px 16px;
     font-size: 17px;
     box-sizing: border-box;
     border-radius: 6px;
     border-color: #737373;
+    border: 1px solid #dadde1;
+    font-family: Arial, Helvetica, sans-serif; 
 }
 
+.caja-usuario::placeholder{
+color:#8a8c90;
+}
+.contrasena::placeholder{
+    color: #8a8c90;
+}
 .contrasena{
     width: 363px;
-    height: 22px;
     padding: 14px 16px 14px 16px;
     font-size: 17px;
     justify-content: end;
     align-items: end;
     box-sizing: border-box;
     border-radius: 6px;
-    
+    border: 1px solid #dadde1;
 }
 .caja-contrasena{
     width: 100%;
@@ -93,17 +94,13 @@
     align-items: end;
 }
 
-
 .footer{
-    
     background-color: #FFFFFF;
-    height:137px ;
-    width: 1257px;
-    
+    height:180px ;
+    width: 1300px;
 }
 
 .footer-one{
-    
     width: 980px;
     height: 19px;
     padding: 20px 0px 10px 0px;
@@ -118,7 +115,6 @@
 }
 
 .footer-two{
-   
     width: 980px;
     height: 19px;
     padding: 10px 0px 0px 0px;
@@ -133,16 +129,18 @@
     flex-wrap: wrap;
     border-top: 1px solid;
     border-color: #737373;
-
 }
 .olvidaste-contraseña{
   justify-content: center;
   align-items: center;
   display: flex;
   color: #0866ff;
-    font-size: 14px;
-    font-weight: 500;
-    margin: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border-bottom: 1px solid #dadde1;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .button-crear-cuenta{
     background-color: rgb(61, 174, 37);
@@ -155,6 +153,8 @@
     color: white;
     font-size: 16px;
     align-items: center;
+    border-radius: 6px;
+    margin: 25px;
 }
 .cr{
     display: flex;
@@ -165,16 +165,15 @@
     font-size: 17px;
     font-weight: bold;
 }
-.iniciar-sesion{
-    justify-content: center;
+.iniciar-sesion{ 
     background-color: #0866ff;
-    width: 332px;
+    width: 363px;
     height: 48px;
     font-weight: bold;
     color: #fff;
     font-size: 20px;
     border: #0866ff;
-   
+    border-radius: 6px;
 }
 li{
     list-style: none;
@@ -184,24 +183,23 @@ a{
     color: #737373;
 }
 .fin{
-    display: flex;
-    justify-content: start;
+    padding: 0px;
     color: #737373;
     font-size: 11px;
     width: 980px;
     height: 19px;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0px 143px 0px 143px ;
-    align-items: end;
+    margin-top: 68px;
+    margin-left: 103px;
+    background-color: #FFFFFF; 
 }
 .box-two-two{
-    margin: 30px 0px 0px 0px;
-    background-color: #F2F4F7;
+    margin: 40px 0px 0px 0px;
     padding: 20px 0px 24px 0px;
-    width: 415px;
-    display: flex;
-    justify-content: center;
-    
+    width: 410px;
+    font-size: 14px;
+    height: 19px;
+    font-family: Helvetica, Arial, sans-serif;
 }
 .negrilla{
     font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
@@ -210,7 +208,8 @@ a{
     color:black;
 }
 .button{
-    margin: 20px;
-    box-sizing: border-box;
+    border-radius: 6px;
+    width: 363px;
+    height: 48px;
+    padding-top: 15px;
 }
-
